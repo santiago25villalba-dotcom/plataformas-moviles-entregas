@@ -197,4 +197,4 @@ function enumerarLista(listaDePalabras) {
     
     return primeros.join(", ") + " y " + ultimos[0] + ".";
 }
-console.log("enumerarLista(): ", enum
+console.log("enumerarLista(): ", enumerarLista(["Han", "Leia", "Luke", "Yoda"]));
